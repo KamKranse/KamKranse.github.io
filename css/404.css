@@ -52,7 +52,7 @@ img{max-width:100%;}
     font-style: normal;
 }
 body {
-	background:url(bg.jpg) no-repeat 100%;
+	background:url(../images/bg.jpg) no-repeat 100%;
 	background-size: 100%;
 	font-family: 'open_sanslight';
 	font-size: 100%;
@@ -185,7 +185,7 @@ body {
 {
 .wrap {
 	width: 80%;
-}	
+}
 .logo img {
 	width: 315px;
 }
@@ -194,7 +194,7 @@ body {
 {
 .wrap {
 	width: 85%;
-}	
+}
 .logo {
 	padding: 1% 1% 12% 1%;
 }
@@ -209,7 +209,7 @@ body {
 {
 .wrap {
 	width: 90%;
-}	
+}
 .logo {
 	padding: 1% 1% 12% 1%;
 }
@@ -235,7 +235,7 @@ body {
 {
 .wrap {
 	width: 90%;
-}	
+}
 .logo {
 	padding: 1% 1% 12% 1%;
 }

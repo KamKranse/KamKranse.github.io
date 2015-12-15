@@ -1,0 +1,133 @@
+
+
+body {
+-webkit-font-smoothing: antialiased;
+background: #7a8499;
+font-family: "PT Sans", sans-serif;
+font-size: 16px;
+color: #fff;
+margin: 15% auto 5%;
+width: 70%;
+max-width: 620px;
+position: relative;
+}
+
+nav {
+height: 50px;
+width: 90px;
+display: block;
+position: absolute;
+z-index: 10;
+overflow-y: hidden;
+text-align: center;
+}
+
+nav:hover {
+width: 140px;
+height: 210px;
+}
+
+nav a {
+display: none;
+text-indent: -9999px;
+position: relative;
+height: 20px;
+padding: 13px 0;
+color: #fff !important;
+}
+
+nav a:first-child:hover {
+text-indent: -9999px;
+}
+
+nav:hover>a {
+display: block;
+}
+
+nav:hover>a:first-child:after {
+color: #6daeaf;
+background: #505664;
+}
+
+nav a:first-child {
+display: block;
+text-align: center;
+margin-bottom: 16px;
+cursor: default;
+}
+
+nav a:after {
+position: absolute;
+top: 0;
+padding: 12px 0;
+width: 90px;
+color: #fff;
+font-family: 'icons';
+font-size: 24px;
+display: block;
+text-indent: 0;
+background: #6daeaf;
+}
+
+nav a:hover {
+text-indent: 0px;
+text-align: left;
+margin-left: 70px;
+}
+
+nav a:hover:after {
+color: #999;
+background: #fff;
+text-align: center;
+margin-left: -70px;
+}
+
+nav a:first-child:before {
+position: absolute;
+text-indent: 0;
+top: 55px;
+left: 23px;
+content: "";
+width: 0;
+height: 0;
+border-left: 7px solid transparent;
+border-right: 7px solid transparent;
+border-bottom: 7px solid #6daeaf;
+}
+
+nav a:first-child:hover:before {
+margin-left: -70px;
+}
+
+nav a:first-child:after {
+left: 0;
+content: "Menu";
+background: #656d7e;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+nav a:nth-child(2):after {
+content: "Home";
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+nav a:nth-child(3):after {
+content: "Projects";
+}
+
+nav a:last-child:after {
+content: "Contact";
+-webkit-border-bottom-left-radius: 5px;
+-webkit-border-bottom-right-radius: 5px;
+-moz-border-radius-bottomleft: 5px;
+-moz-border-radius-bottomright: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
