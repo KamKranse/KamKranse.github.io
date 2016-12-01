@@ -1081,7 +1081,7 @@ body {
   color: #505050 ;
   font-family: 'CircularStd', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 500;
-  background-color: #e6e6e6;
+  background-color: #ADB4B4;
   -webkit-animation: badyfade 1s ease;
   animation: badyfade 1s ease;
   overflow-x: hidden; }
@@ -1158,7 +1158,7 @@ header {
       background-color: white; }
     .menu .menu-link .title {
       display: inline-block;
-      opacity: 0;
+      opacity: 1;
       font-size: 1.125rem;
       transition: all .2s ease;
       padding-left: 10px;
@@ -1321,7 +1321,7 @@ header {
 .project-section {
   position: relative;
   margin-left: 4em;
-  background-color: #e6e6e6;
+  background-color: #604E37;
   height: 100%;
   overflow: scroll; }
   .project-section .project {
@@ -1370,7 +1370,7 @@ header {
     opacity: 1;
     color: #505050 ; }
   .project-box:hover .image {
-    background-color: #e6e6e6; }
+    background-color: #EE8434; }
   .project-box .image {
     height: 120px;
     background-color: #ddd;
